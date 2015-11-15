@@ -15,6 +15,7 @@ var CommentBox = React.createClass({
     var inlineStyle = {width: "500", height: '25', border: '1px solid black'};
     return (
       <div className = 'testClass'>
+        <p>Enter an image URL:</p>
         <input type='text' value={this.state.image} onChange={this.handleChange} style={inlineStyle}/>
         <p></p>
         {/* <img src={this.props.data.image} width='200'/> */}
